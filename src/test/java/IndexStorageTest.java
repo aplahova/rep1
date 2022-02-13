@@ -6,7 +6,7 @@ public class IndexStorageTest {
     @Test
     public void TestSizeIndexStorage() {
         IndexStorage is = new IndexStorage(10);
-        Assertions.assertEquals(is.size(), 0);
+        Assertions.assertEquals(is.size(), 10);
     }
 
     @Test
